@@ -12,7 +12,7 @@ Create a Drive Train Subsystem
 
 .. image:: images/driving-with-joysticks-1.png
 
-Create a subsystem called Drive Train. Its responsibility will be to handle the driving for the robot base. Inside the Drive Train is a Robot Drive object for a two motor drive robot (in this case). There is a left motor and right motor as part of the Robot Drive 2 class.
+Create a subsystem called Drive Train. Its responsibility will be to handle the driving for the robot base. Inside the Drive Train is a DifferentialDrive object for a two motor drive robot (in this case). There is a left motor and right motor as part of the DifferentialDrive class.
 
 Add the Joysticks to the Operator Interface
 -------------------------------------------
